@@ -1,0 +1,10 @@
+version: '3.5'
+
+services:
+ ctftime:
+   restart: unless-stopped
+   image: ctftime
+   build: .
+   container_name: ctftime
+   ports:
+     - 21039:21039

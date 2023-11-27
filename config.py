@@ -28,7 +28,7 @@ config = {
 
     # IDs of your teams on CTFTime
     'ctf_teams': [
-        1,2,3
+        123,345,678
     ],
 
     # For dates in poll
